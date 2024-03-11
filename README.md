@@ -1,2 +1,2 @@
 # magazine-gozer
-Template «Magazine» de Free CSS, adaptado para el generador estático Gozer.
+Template «Magazine» de [Free CSS](https://www.free-css.com/free-css-templates/page215/magazine), adaptado para el generador estático [Gozer](https://github.com/dannyvankooten/gozer).
