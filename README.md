@@ -7,7 +7,7 @@ This template is a basic version of the original. Pagination or support for tags
 
 ![Template screenshot menu](https://raw.githubusercontent.com/htejera/magazine-gozer/main/screenshot2.webp)
 
-# Installing and Building a Project with Gozer
+# Installing and building
 
 Gozer is a powerful static site generator written in Go. Follow these instructions to install Gozer and build your project.
 
@@ -23,7 +23,7 @@ To install Gozer, open a terminal and execute the following command:
 go install github.com/dannyvankooten/gozer@latest
 ```
 
-This command will download and install the latest version of Gozer.
+This command will download and install the latest version of Gozer; or download a precompiled binary from the [latest release](https://github.com/dannyvankooten/gozer/releases)
 
 ## Project Structure
 
@@ -32,7 +32,7 @@ After initializing your project, you'll find the following structure:
 - `content/`: This directory contains your site's content, typically Markdown files.
 - `public/`: This is where your site will be generated.
 
-## Building Your Site
+## Building
 
 To build your site, navigate to your project's root directory in the terminal and run:
 
@@ -42,7 +42,7 @@ gozer build
 
 This command processes your content files and generates your site in the `public/` directory.
 
-## Serving Your Site Locally
+## Serving the site locally
 
 If you want to preview your site locally, you can serve it using Gozer by running:
 
