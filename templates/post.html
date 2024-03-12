@@ -1,0 +1,28 @@
+{{ template "_header.html" .}}
+{{ template "_menu_header.html" .}}
+
+<div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article
+            class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                <img src="{{ .Site.Url }}images/single_1.jpg" alt="Image" class="img-responsive">
+            </figure>
+             <h2 class="fh5co-article-title animate-box"><a href="{{ .Permalink }}">{{$.Title}}</a>
+            </h2>
+            {{ if not .DatePublished.IsZero }}
+            <span class="fh5co-meta fh5co-date animate-box">{{ .DatePublished.Format "Jan 2, 2006" }}</span>
+            {{ end }}
+            <div
+                class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="fadeInUp animated">
+                        {{$.Content}}
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
+
+{{ template "_footer.html" .}}

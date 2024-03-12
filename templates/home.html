@@ -1,0 +1,24 @@
+{{ template "_header.html" .}}
+{{ template "_menu_header.html" .}}
+
+<div class="container-fluid">
+	<div class="row fh5co-post-entry">
+		{{ range (slice $.Posts 0 4) }}
+		<article class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+			<figure>
+				<a href="{{ .Permalink }}"><img src="images/pic_1.jpg" alt="Image" class="img-responsive"></a>
+			</figure>
+			<span class="fh5co-meta"><a href="#">Markdown</a></span>
+			<h2 class="fh5co-article-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+			{{ if not .DatePublished.IsZero }}
+			<span class="fh5co-meta fh5co-date">{{ .DatePublished.Format "Jan 2, 2006" }}</span>
+			{{ end }}
+		</article>
+		{{ end }}
+
+		<div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+		<div class="clearfix visible-xs-block"></div>
+	</div>
+</div>
+
+{{ template "_footer.html" .}}
