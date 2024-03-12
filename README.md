@@ -3,6 +3,10 @@
 
 This template is a basic version of the original. Pagination or support for tags is not included.
 
+![Template screenshot](https://raw.githubusercontent.com/htejera/magazine-gozer/main/screenshot1.webp)
+
+![Template screenshot menu](https://raw.githubusercontent.com/htejera/magazine-gozer/main/screenshot2.webp)
+
 # Installing and Building a Project with Gozer
 
 Gozer is a powerful static site generator written in Go. Follow these instructions to install Gozer and build your project.
