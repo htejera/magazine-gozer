@@ -1,7 +1,7 @@
 # “Magazine” HTML template for Gozer
 [Free CSS](https://www.free-css.com/free-css-templates/page215/magazine) “Magazine” template, adapted for the [Gozer](https://github.com/dannyvankooten/gozer) static generator.
 
-This template is a basic version of the original. Pagination or support for tags is not included.
+This template is a basic version of the original. Pagination and support for tags is not included.
 
 Live preview: [https://magazine-gozer.surge.sh](https://magazine-gozer.surge.sh)
 
