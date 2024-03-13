@@ -3,6 +3,8 @@
 
 This template is a basic version of the original. Pagination or support for tags is not included.
 
+Live preview: [https://magazine-gozer.surge.sh](https://magazine-gozer.surge.sh)
+
 ![Template screenshot](https://raw.githubusercontent.com/htejera/magazine-gozer/main/screenshot1.webp)
 
 ![Template screenshot menu](https://raw.githubusercontent.com/htejera/magazine-gozer/main/screenshot2.webp)
