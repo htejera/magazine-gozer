@@ -25,7 +25,7 @@ To install Gozer, open a terminal and execute the following command:
 go install github.com/dannyvankooten/gozer@latest
 ```
 
-This command will download and install the latest version of Gozer; or download a precompiled binary from the [latest release](https://github.com/dannyvankooten/gozer/releases)
+This command will download and install the latest version of Gozer; or you can also download a precompiled binary from the [latest release](https://github.com/dannyvankooten/gozer/releases)
 
 ## Project Structure
 
