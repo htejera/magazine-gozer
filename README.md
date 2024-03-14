@@ -32,7 +32,7 @@ This command will download and install the latest version of Gozer; or you can a
 After initializing your project, you'll find the following structure:
 
 - `content/`: This directory contains your site's content (Markdown files).
-- `public/`: Archivos esáticos, como ser: CSS, JS, etc.
+- `public/`: Static files, such as: CSS, JS, etc.
 
 ## Building
 
