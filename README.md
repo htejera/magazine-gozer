@@ -9,6 +9,8 @@ Live preview: [https://magazine-gozer.surge.sh](https://magazine-gozer.surge.sh)
 
 ![Template screenshot menu](https://raw.githubusercontent.com/htejera/magazine-gozer/main/screenshot2.webp)
 
+> Find more themes for Gozer at [Jamstackthemes](https://jamstackthemes.dev/#ssg=gozer)
+
 # Installing and building
 
 Gozer is a powerful static site generator written in Go. Follow these instructions to install Gozer and build your project.
